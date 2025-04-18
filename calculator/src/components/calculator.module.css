@@ -1,0 +1,42 @@
+.lowercalc{
+display: grid;
+gap: 10px ;
+grid-template-Columns: repeat(4, 1fr);
+width: 20%;
+margin-left: 40%;
+}
+
+.butns{
+font-Size: 18px;
+width: 50px; 
+text-align: center;
+padding: 15px; 
+border-Radius: 5px; 
+background-Color: #e2e8f0;
+cursor: pointer;
+}
+.inputbox{
+    margin-left: 41%;
+    width: 16%;
+    display: flex;
+    font-Size: 14px;
+    padding: 10px;
+    margin-Bottom: 10px;
+    border: 1px solid #ccc;
+    border-Radius: 5px;
+    height: 4px;
+}
+.text{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin-left: 40%;
+    padding: 5px;
+    color: grey;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    width: 40%;
+}
